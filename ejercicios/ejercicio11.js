@@ -11,5 +11,5 @@ if (num % 2 === 0) {
 }
 
 if (divisor != '') {
-    alert(`El número ${num} es divisible por ${divisor}`);
+    document.write(`El número ${num} es divisible por ${divisor}`);
 }
