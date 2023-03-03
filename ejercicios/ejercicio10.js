@@ -1,10 +1,15 @@
-let num = prompt("ingresa un numero:");
+let num;
+
+do {
+  num = prompt("Ingresa un número:");
+} while (num.trim() === "" || isNaN(num));
+
 if (num % 2 === 0) {
-    alert("es divisible por 2.");
+    document.write("es divisible por 2.");
 } else if(num % 3 === 0){
-    alert("es divisible por 3.");
+    document.write("es divisible por 3.");
 } else if(num % 5 === 0){
-    alert("es divisible por 5.");
+    document.write("es divisible por 5.");
 } else if(num % 7 === 0){
-    alert("es divisible por 7.");
+    document.write("es divisible por 7.");
 }

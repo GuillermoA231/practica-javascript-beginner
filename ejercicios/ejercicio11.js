@@ -1,5 +1,11 @@
-let num = prompt("Introduce un numero:");
+let num;
 let divisor = '';
+
+do {
+    num = prompt("Ingresa un número:");
+} while (num.trim() === "" || isNaN(num));
+  
+
 if (num % 2 === 0) {
     divisor = '2';
 } else if(num % 3 === 0){
