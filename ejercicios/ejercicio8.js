@@ -1,4 +1,5 @@
-let num = parseInt(prompt("Introduce un número:"));
+function ejercicio8(){
+  let num = parseInt(prompt("Introduce un número:"));
 
 
 do {
@@ -10,4 +11,6 @@ if (num % 2 === 0) {
   document.write("El número " + num + " es divisible por 2");
 } else {
   document.write("El número " + num + " no es divisible por 2");
+}
+
 }

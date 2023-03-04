@@ -1,1 +1,3 @@
-document.write("Hello World");
+function ejercicio1(){
+    document.write("Hello World");
+}
