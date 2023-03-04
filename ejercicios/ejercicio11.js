@@ -4,7 +4,7 @@ function ejercicio11() {
 
   do {
     num = prompt("Ingresa un número:");
-  } while (num.trim() === "" || isNaN(num));
+  } while (isNaN(num));
 
   if (num % 2 === 0) {
     divisor = "2";

@@ -3,11 +3,11 @@ function ejercicio7(){
   
   do {
     num1 = parseInt(prompt("Introduce el primer número:"));
-  } while (num1.trim() === "" || isNaN(num1));
+  } while (isNaN(num1));
   
   do {
     num2 = parseInt(prompt("Introduce el segundo número:"));
-  } while (num2.trim() === "" || isNaN(num2));
+  } while (isNaN(num2));
   
   do {
     num3 = parseInt(prompt("Introduce el tercer número:"));

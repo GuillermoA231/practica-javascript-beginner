@@ -3,7 +3,7 @@ function ejercicio10() {
 
   do {
     num = prompt("Ingresa un número:");
-  } while (num.trim() === "" || isNaN(num));
+  } while (isNaN(num));
 
   if (num % 2 === 0) {
     document.write("es divisible por 2.");

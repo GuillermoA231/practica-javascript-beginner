@@ -1,3 +1,3 @@
-function ejercicio1(){
+function ejercicio2(){
     document.write("Hello World");
 }

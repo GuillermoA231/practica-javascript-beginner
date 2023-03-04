@@ -1,10 +1,10 @@
 function ejercicio8(){
-  let num = parseInt(prompt("Introduce un número:"));
+  let num;
 
 
 do {
   num = parseInt(prompt("Introduce un número:"));
-} while (num.trim() === "" || isNaN(num));
+} while (isNaN(num));
 
 
 if (num % 2 === 0) {
