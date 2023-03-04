@@ -1,7 +1,16 @@
-let numero = parseInt(prompt("Introduce un número:"));
+function ejercicio8(){
+  let num = parseInt(prompt("Introduce un número:"));
 
-if (numero % 2 === 0) {
-  document.write("El número " + numero + " es divisible por 2");
+
+do {
+  num = parseInt(prompt("Introduce un número:"));
+} while (num.trim() === "" || isNaN(num));
+
+
+if (num % 2 === 0) {
+  document.write("El número " + num + " es divisible por 2");
 } else {
-  document.write("El número " + numero + " no es divisible por 2");
+  document.write("El número " + num + " no es divisible por 2");
+}
+
 }

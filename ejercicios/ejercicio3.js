@@ -1,1 +1,3 @@
-document.write(3 + 5);
+function ejercicio3(){
+    document.write(3 + 5);
+}

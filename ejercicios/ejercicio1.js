@@ -1,1 +1,4 @@
-document.write("un mensaje");
+function ejercicio1(){
+    document.write("un mensaje");
+    
+}
